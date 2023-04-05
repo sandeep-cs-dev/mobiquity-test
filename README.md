@@ -5,10 +5,10 @@
 
 Packing problem could be solved using DP, Greedy or recursion.
 
-1. Greedy approach is not suitable for requirement even though  item weight are fractional, Hoever we are  not allowed to break items so we can use it.
+1. Greedy approach is not suitable for requirement even though  item weight are fractional, Hoever we are  not allowed to break items so we can not use it.
 
 
-2. Dynamic Programing would have been good choice if item weight were integer values. In oreder to use DP we will have to adjust decimal by multiplying by 100 assuiming item weight would be up to two decimal precesion.
+2. Dynamic Programing would have been good choice if item weight were integer values. In oreder to use DP we will have to adjust decimal by multiplying by 100 assuiming item weight would be precise up to two decimal places
 
 Time complexity analysis for input within given constraint in the problem for DP based solution:
 
@@ -26,11 +26,6 @@ Since input set is small I have used recursion which is still efficient for inpu
 
 ### Time complexity 
  2^15 < 15*10000 (32768 < 150000)
-
-
-
-
-
 
 
 
