@@ -37,4 +37,5 @@ Since input set is small I have used recursion which is still efficient for inpu
 
 - Better test cases and coverage 
 - Provide Configuration Factory for to configure algorithm and  other input parameters such as allowed total items, weight etc.
+- Logging
 
